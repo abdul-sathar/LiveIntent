@@ -39,11 +39,13 @@ Running the test suite:
 * [Apache Maven 3](http://maven.apache.org/download.cgi)
 
 ## Steps to run tests:
-Pre-condition: make sure the service under test is up and running in the localhost
+***Pre-condition:*** make sure the service under test is up and running in the localhost
 
-1. Navigate to ***'Liveintent'*** folder `cd Liveintent` 
+1. Clone the repository.
 
-2. Execute the tests by `mvn clean test` 
+2. Navigate to ***'Liveintent'*** folder by `cd Liveintent` 
+
+3. Execute the tests by `mvn clean test` 
 
 #### Extent report
 You can find generated extent report for tests under ***"/TestReport/testReporter.html"***
