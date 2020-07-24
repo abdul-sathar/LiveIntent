@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AWS API Automation Tests" parallel="methods" thread-count="4">
+    <test name="TestRouting">
+        <classes>
+            <class name="com.liveintent.tests.TestRouting"/>
+        </classes>
+    </test>
+</suite>

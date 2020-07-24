@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [AWS API Automation Tests]" parallel="methods">
+  <test thread-count="4" verbose="0" name="TestRouting(failed)" parallel="methods">
+    <classes>
+      <class name="com.liveintent.tests.TestRouting">
+        <methods>
+          <include name="testRoutingWithValidSeed" invocation-numbers="0 1 2 3 4"/>
+          <include name="getResult"/>
+          <include name="logStartMethod"/>
+          <include name="testRoutingWithInvalidSeed" invocation-numbers="0 1 2 3 4"/>
+          <include name="SuiteLevelSetup"/>
+          <include name="tearDown"/>
+          <include name="baseBeforeTest"/>
+        </methods>
+      </class> <!-- com.liveintent.tests.TestRouting -->
+    </classes>
+  </test> <!-- TestRouting(failed) -->
+</suite> <!-- Failed suite [AWS API Automation Tests] -->
