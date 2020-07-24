@@ -47,6 +47,8 @@ Running the test suite:
 
 3. Execute the tests by `mvn clean test` 
 
+***Important Note:*** Framework is designed to perform parallel execution of tests using TestNG, i.e tests get executed parallelly.
+
 #### Extent report
 You can find generated extent report for tests under ***"/TestReport/testReporter.html"***
 
