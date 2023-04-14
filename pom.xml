@@ -11,7 +11,7 @@
 		<extentreports.version>4.1.7</extentreports.version>
 		<rest-assured.version>4.3.1</rest-assured.version>
 		<testng.version>6.14.3</testng.version>
-		<json.version>20200518</json.version>
+		<json.version>20230227</json.version>
 		<awssdk.version>1.11.805</awssdk.version>
 	</properties>
 	
