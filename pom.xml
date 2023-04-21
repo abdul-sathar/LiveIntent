@@ -10,7 +10,7 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<extentreports.version>4.1.7</extentreports.version>
 		<rest-assured.version>4.3.1</rest-assured.version>
-		<testng.version>6.14.3</testng.version>
+		<testng.version>7.7.0</testng.version>
 		<json.version>20200518</json.version>
 		<awssdk.version>1.11.805</awssdk.version>
 	</properties>
